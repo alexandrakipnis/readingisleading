@@ -2,3 +2,10 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-success {
+    color: #fff !important;
+    background-color: #ddc297 !important;
+  }
+  .mat-success[disabled] {
+    background-color: rgba(0, 0, 0, 0.12) !important;
+  }
