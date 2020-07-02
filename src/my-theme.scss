@@ -10,8 +10,9 @@
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
 //$my-theme-primary: mat-palette($mat-yellow);
-$my-theme-primary: mat-palette($mat-gold);
-$my-theme-accent:  mat-palette($mat-gold);
+//$my-theme-primary: mat-palette($mat-gold);
+$my-theme-primary: mat-palette($mat-indigo);
+$my-theme-accent:  mat-palette($mat-indigo);
 
 // The warn palette is optional (defaults to red).
 $my-theme-warn:    mat-palette($mat-deep-orange);
