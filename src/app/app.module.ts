@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //Angular Material Modules
 import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatExpansionModule} from '@angular/material/expansion';
+
 
 //Components
 import { AboutMbComponent } from './about-mb/about-mb.component';
@@ -33,6 +35,7 @@ import { ResourcesComponent } from './resources/resources.component'
     BrowserAnimationsModule,
     MatButtonModule,
     MatTabsModule,
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

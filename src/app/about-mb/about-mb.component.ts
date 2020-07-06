@@ -5,11 +5,20 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './about-mb.component.html',
   styleUrls: ['./about-mb.component.css']
 })
-export class AboutMbComponent implements OnInit {
 
-  constructor() { }
 
-  ngOnInit(): void {
+export class AboutMbComponent {
+  step = 0;
+
+  setStep(index: number) {
+    this.step = index;
   }
 
+  nextStep() {
+    this.step++;
+  }
+
+  prevStep() {
+    this.step--;
+  }
 }
